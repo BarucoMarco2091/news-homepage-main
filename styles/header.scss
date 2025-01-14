@@ -1,0 +1,24 @@
+@import '../styles/variables.scss';
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: auto;
+    padding-top: 5dvh;
+
+    .nav-list {
+        display: flex;
+        gap: 5dvh;
+        list-style-type: none;
+
+        .nav-link {
+            color: $grayishBlue;
+            transition: color .8s;
+        }
+
+        .nav-link:hover {
+            color: $softOrange;
+        }
+    }
+}
